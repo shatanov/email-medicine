@@ -1,0 +1,57 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #f3f3f3 !important;
+  font-family: 'Inter', sans-serif;
+}
+
+.header{
+  border-bottom: 1px solid #e4e2e2;
+}
+
+.header__title {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #565656;
+}
+
+.subtitle{
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #565656;
+}
+
+.name-title{
+  display: block;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #282828;
+}
+
+.password-img{
+  width: 160px;
+}
+
+.password-img img{
+  max-width: 100%;
+}
+
+.btn {
+  font-family: Inter;
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #30b9d6;
+  box-shadow: 0px 6px 27px 0px rgba(47,185,213,0.2);
+  border-radius: 10px;
+}
