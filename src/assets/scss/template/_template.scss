@@ -6,7 +6,7 @@ body,
 html, 
 .body {
   background: #f3f3f3 !important;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif !important;
 }
 
 .header{
@@ -30,7 +30,7 @@ html,
 .name-title{
   display: block;
   text-align: center;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif !important;
   font-size: 30px;
   line-height: 1.2;
   font-weight: 600;
@@ -46,12 +46,49 @@ html,
 }
 
 .btn {
-  font-family: Inter;
-  font-size: 32px;
-  line-height: 1.2;
+  font-family: 'Inter', sans-serif !important;
+  line-height: 1.2 !important;
+  font-weight: 400 !important;
+  color: #ffffff !important;
+  background-color: #30b9d6 !important;
+  box-shadow: 0px 6px 27px 0px rgba(47,185,213,0.2) !important;
+  width: 80% !important;
+  text-align: center !important; 
+}
+
+
+
+.description{
+  font-size: 14px;
+  line-height: 1.5;
   font-weight: 400;
-  color: #ffffff;
-  background-color: #30b9d6;
-  box-shadow: 0px 6px 27px 0px rgba(47,185,213,0.2);
-  border-radius: 10px;
+  color: #565656;
+  text-align: center;
+}
+
+.help{
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #282828;
+  text-align: center;
+}
+
+.description__link{
+  text-decoration: underline;
+}
+
+.description-new{
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #727272;
+  text-align: center;
+}
+
+.descriptionNew__link{
+  padding-bottom: 8px;
+  font-weight: 400;
+  color: #727272;
+  text-decoration: underline;
 }
