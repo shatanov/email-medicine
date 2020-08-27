@@ -97,18 +97,12 @@ html,
   border-bottom: 1px solid #e4e2e2;
 }
 
-.social-img{
-  width: 50px;
-}
 
 .social-img img{
-  max-width: 100%;
+  width: 50px
 }
 
-.row-social{
-  display: inline-block;
-}
 
-.padding{
-  padding-right: 50% !important;
+.social{
+  max-width: 200px;
 }
